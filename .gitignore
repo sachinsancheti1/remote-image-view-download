@@ -82,3 +82,4 @@ sampledata.json
 
 # Local Netlify folder
 .netlify
+package-lock.json

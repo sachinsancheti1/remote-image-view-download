@@ -1,0 +1,30 @@
+{
+  "name": "remote-image-view-download",
+  "version": "1.0.0",
+  "description": "Just a simple webpage to display all photos in made available in a json file system made available in a json file system in the _data folder. Built with 11ty.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx eleventy --serve",
+    "build": "ELEVENTY_ENV=production npx eleventy"
+  },
+  "author": "Sachin Sancheti",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.8.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinsancheti1/remote-image-view-download.git"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy-img"
+  ],
+  "bugs": {
+    "url": "https://github.com/sachinsancheti1/remote-image-view-download/issues"
+  },
+  "homepage": "https://github.com/sachinsancheti1/remote-image-view-download#readme"
+}

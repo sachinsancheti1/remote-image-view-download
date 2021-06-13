@@ -13,7 +13,7 @@ layout: base
 				<img src="{{img.image}}" class="card-img-top" alt="{{img.alt}}" loading=lazy>
 				<div class="card-body">
 					<p><small class="text-muted">{{img.alt}}</small></p>
-					<a href="{{img.image}}" target="_blank" download="{{img.alt}}.jpg" class="btn btn-success btn-block">Download Image</a>
+					<a href="{{img.image}}" target="_blank" download="{{img.alt}}.jpg" rel="noreferrer" class="btn btn-success btn-block">Download Image</a>
 				</div>
 			</div>
 		</div>
